@@ -7,8 +7,68 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <h1>Grey's Luxury</h1>
+    <!-- navigation -->
 
+    <!-- hero element -->
+    <section id="hero">
+      <div class="hero__inner">
+        <span class="subtitle">NEW</span>
+        <h1 class="color--light">Introducing the new Dark T1</h1>
+        <a href="#new-collection" class="button--block--light js-scroll"
+          >SHOP NOW</a
+        >
+      </div>
+      <div class="hero__background-image"></div>
+      <div class="hero__background-overlay"></div>
+    </section>
+
+    <!-- New Collection -->
+    <section id="new-collection">
+      <h1>Discover the New Collection</h1>
+      <div class="products-showcase">
+        <!-- product 1 -->
+        <a href="#new-collection" class="products-showcase__item js-scroll">
+          <div
+            class="products-showcase__item__image"
+            style="background-image: url(./images/showcase-product-1.jpg);"
+          ></div>
+          <div class="products-showcase__item__content">
+            <h3>Diamond Ring</h3>
+            <p>€1.199,-</p>
+          </div>
+        </a>
+
+        <!-- product 2 -->
+        <a href="#new-collection" class="products-showcase__item js-scroll">
+          <div
+            class="products-showcase__item__image"
+            style="background-image: url(./images/showcase-product-2.jpg);"
+          ></div>
+          <div class="products-showcase__item__content">
+            <h3>Golden Ring</h3>
+            <p>€699,-</p>
+          </div>
+        </a>
+
+        <!-- product 3 -->
+        <a href="#new-collection" class="products-showcase__item js-scroll">
+          <div
+            class="products-showcase__item__image"
+            style="background-image: url(./images/showcase-product-3.jpg);"
+          ></div>
+          <div class="products-showcase__item__content">
+            <h3>Fragrance</h3>
+            <p>€149,-</p>
+          </div>
+        </a>
+      </div>
+      <a href="#" class="button-1 js-scroll">
+        <span>View All</span>
+        <div class="button-1__underline"></div>
+      </a>
+    </section>
+
+    <script src="./js/smoothScroll.js"></script>
     <script src="./js/app.js"></script>
   </body>
 </html>
