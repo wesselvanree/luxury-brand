@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital@0;1&display=swap");
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  color: #5c5c5c;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  color: #333;
+}
