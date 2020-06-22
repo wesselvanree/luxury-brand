@@ -62,7 +62,7 @@ p {
   transition: background-color 200ms ease-out;
 }
 
-.button--block--light:hover {
+body.hasHover .button--block--light:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -82,7 +82,7 @@ p {
   transition: width 150ms ease-out;
 }
 
-.button-1:hover .button-1__underline {
+body.hasHover .button-1:hover .button-1__underline {
   width: 100%;
 }
 
@@ -198,7 +198,7 @@ section#hero .hero__background-overlay {
   padding: 10px 0;
 }
 
-.products-showcase .products-showcase__item:hover .products-showcase__item__image {
+.products-showcase body.hasHover .products-showcase__item:hover .products-showcase__item__image {
   opacity: 0.8;
 }
 
