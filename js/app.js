@@ -1,4 +1,3 @@
-// check for mobile or desktop device
 function watchForHover() {
   // lastTouchTime is used for ignoring emulated mousemove events
   let lastTouchTime = 0;
