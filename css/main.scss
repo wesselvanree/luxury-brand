@@ -221,7 +221,7 @@ section#hero {
 }
 
 /****** Image-Content Split ******/
-#image-content-split {
+.image-content-split {
   width: 100%;
   margin-top: 50px;
   padding: 20px;
@@ -247,7 +247,7 @@ section#hero {
 }
 
 @media screen and (min-width: 600px) {
-  #image-content-split {
+  .image-content-split {
     .image-content-split__inner {
       display: flex;
 
@@ -261,4 +261,8 @@ section#hero {
       }
     }
   }
+}
+
+/* Split Container */
+.split-container {
 }
